@@ -1,0 +1,13 @@
+.portafolio{
+    background: #001F54;
+}
+
+#portafolio-img{
+height:40%;
+width: 40%;
+}
+
+.portafolio-card{
+    border: solid 1px #FEFCFB;
+    border-radius: 20px;
+}

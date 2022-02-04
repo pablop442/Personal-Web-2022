@@ -1,0 +1,39 @@
+.contact-modal{
+    background: #0A1128;
+    color: #FEFCFB;
+}
+
+.form-control{
+    border: none !important;
+    border-bottom: 1px solid #1282A2 !important;
+    border-radius: 0% !important;
+    background: none;
+}
+
+.modal-footer, .modal-header{
+    border: none;
+}
+
+.form-control:focus{
+    background: none;
+    color: #FEFCFB;
+    box-shadow: none;
+}
+
+#modal-close-btn{
+    background: #0A1128;
+}
+
+#modal-submit-btn{
+   background: #001F54;
+   border-color: #FEFCFB; 
+}
+
+#modal-close-btn:hover{
+    background: gray;
+}
+
+#modal-submit-btn:hover{
+    background: #1282A2;
+    /* border-color: #001F54; */
+ }

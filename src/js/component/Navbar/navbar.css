@@ -1,0 +1,25 @@
+
+.navbar{
+    background: #05090f;
+    
+    
+}
+.nav-link, .navbar-brand{
+   color:  #FEFCFB;
+}
+
+#logo{
+    width: 161px;
+    height: 60px;
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #FEFCFB;
+}
+
+/* .navbar-light .navbar-toggler{
+    color: white !important;
+    border-color: white;
+} */

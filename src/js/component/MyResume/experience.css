@@ -1,0 +1,16 @@
+.date-text{
+    margin-left: 0.8em;
+ }
+
+ .date-text-right{
+     margin-right: 0.8em;
+ }
+
+ .vertical-timeline::before{
+     width: 2px;
+ }
+
+ ul{
+     list-style:circle;
+     
+ }
