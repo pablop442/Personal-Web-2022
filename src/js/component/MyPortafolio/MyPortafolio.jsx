@@ -1,7 +1,7 @@
 import React from "react";
 import "./myPortafolio.css";
 import { FaBeer } from "react-icons/fa";
-import CityHold from "../../../img/City-Hold.png";
+import CityHold from "../../../img/City-HoldReducedSize.png";
 
 const MyPortafolio = () => {
 	return (
