@@ -59,6 +59,7 @@
 		]
 	},
 	"dependencies": {
+		"@emailjs/browser": "^3.4.0",
 		"@stahl.luke/react-reveal": "^1.2.3",
 		"framer-motion": "^6.2.3",
 		"prop-types": "^15.7.2",

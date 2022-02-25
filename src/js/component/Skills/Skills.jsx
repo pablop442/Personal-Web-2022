@@ -6,20 +6,22 @@ import { motion } from "framer-motion";
 const Skills = () => {
 	return (
 		<>
-			<section class="p-5 skills" id="skills">
-				<div class="container">
-					<div class="row text-center g-4">
+			<section className="p-5 skills" id="skills">
+				<div className="container">
+					<div className="row text-center g-4">
 						<h1 className="text-white text-start mt-5 mb-3">
 							My Skills
 						</h1>
-						<div class="col-md">
-							<div class="card  text-light h-100 card-drk">
-								<div class="card-body text-center">
-									<div class="h1 mb-3">
+						<div className="col-md">
+							<div className="card  text-light h-100 card-drk">
+								<div className="card-body text-center">
+									<div className="h1 mb-3">
 										<FaLaptopCode />
 									</div>
-									<h3 class="card-title mb-3">Front-End</h3>
-									<p class="card-text">
+									<h3 className="card-title mb-3">
+										Front-End
+									</h3>
+									<p className="card-text">
 										HTML<br></br>
 										CSS<br></br>
 										Bootstrap<br></br>
@@ -29,14 +31,16 @@ const Skills = () => {
 								</div>
 							</div>
 						</div>
-						<div class="col-md">
-							<div class="card  text-light h-100 card-lgt">
-								<div class="card-body text-center">
-									<div class="h1 mb-3">
+						<div className="col-md">
+							<div className="card  text-light h-100 card-lgt">
+								<div className="card-body text-center">
+									<div className="h1 mb-3">
 										<FaDatabase />
 									</div>
-									<h3 class="card-title mb-3">Back-End</h3>
-									<p class="card-text">
+									<h3 className="card-title mb-3">
+										Back-End
+									</h3>
+									<p className="card-text">
 										Pyton<br></br>
 										Flask<br></br>
 										API Rest<br></br>
@@ -45,16 +49,16 @@ const Skills = () => {
 								</div>
 							</div>
 						</div>
-						<div class="col-md">
-							<div class="card  text-light h-100 card-drk">
-								<div class="card-body text-center">
-									<div class="h1 mb-3">
+						<div className="col-md">
+							<div className="card  text-light h-100 card-drk">
+								<div className="card-body text-center">
+									<div className="h1 mb-3">
 										<FaGitAlt />
 									</div>
-									<h3 class="card-title mb-3">
+									<h3 className="card-title mb-3">
 										Version Control
 									</h3>
-									<p class="card-text">
+									<p className="card-text">
 										Git<br></br>
 										GitHub<br></br>
 										Command Line<br></br>
@@ -62,14 +66,16 @@ const Skills = () => {
 								</div>
 							</div>
 						</div>
-						<div class="col-md">
-							<div class="card  text-light h-100 card-lgt">
-								<div class="card-body text-center">
-									<div class="h1 mb-3">
+						<div className="col-md">
+							<div className="card  text-light h-100 card-lgt">
+								<div className="card-body text-center">
+									<div className="h1 mb-3">
 										<FaChild />
 									</div>
-									<h3 class="card-title mb-3">Soft Skills</h3>
-									<p class="card-text">
+									<h3 className="card-title mb-3">
+										Soft Skills
+									</h3>
+									<p className="card-text">
 										Common Sense<br></br>
 										Time Management<br></br>
 										Teamwork<br></br>

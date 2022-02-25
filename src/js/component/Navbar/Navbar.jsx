@@ -10,9 +10,9 @@ import ContactMe from "../ContactMe/ContactMe.jsx";
 const Navbar = () => {
 	return (
 		<>
-			<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-				<div class="container">
-					<a href="#" class="navbar-brand p-0">
+			<nav className="navbar navbar-expand-lg navbar-dark fixed-top">
+				<div className="container">
+					<a href="#" className="navbar-brand p-0">
 						<img
 							src={PabloPeñaBig}
 							alt="Pablo Peña Logo"
@@ -22,39 +22,39 @@ const Navbar = () => {
 					</a>
 
 					<button
-						class="navbar-toggler me-3"
+						className="navbar-toggler me-3"
 						type="button"
 						data-bs-toggle="collapse"
 						data-bs-target="#navmenu">
-						<span class="navbar-toggler-icon"></span>
+						<span className="navbar-toggler-icon"></span>
 					</button>
 
-					<div class="collapse navbar-collapse" id="navmenu">
-						<ul class="navbar-nav ms-auto">
-							<li class="nav-item">
-								<a href="#about" class="nav-link">
+					<div className="collapse navbar-collapse" id="navmenu">
+						<ul className="navbar-nav ms-auto">
+							<li className="nav-item">
+								<a href="#about" className="nav-link">
 									About me
 								</a>
 							</li>
-							<li class="nav-item">
-								<a href="#skills" class="nav-link">
+							<li className="nav-item">
+								<a href="#skills" className="nav-link">
 									Skills
 								</a>
 							</li>
-							<li class="nav-item">
-								<a href="#resume" class="nav-link">
+							<li className="nav-item">
+								<a href="#resume" className="nav-link">
 									Resume
 								</a>
 							</li>
-							<li class="nav-item">
-								<a href="#portafolio" class="nav-link">
+							<li className="nav-item">
+								<a href="#portafolio" className="nav-link">
 									Portafolio
 								</a>
 							</li>
-							<li class="nav-item">
+							<li className="nav-item">
 								<a
 									href="#"
-									class="nav-link"
+									className="nav-link"
 									data-bs-toggle="modal"
 									data-bs-target="#contact">
 									Contact me

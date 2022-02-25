@@ -12,7 +12,7 @@ const Experience = () => {
 	return (
 		<>
 			<section
-				class="text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start experience-section"
+				className="text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start experience-section"
 				id="resume">
 				<div className="container">
 					<div className="row justify-content-end">

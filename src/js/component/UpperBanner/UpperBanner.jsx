@@ -15,10 +15,10 @@ const UpperBanner = () => {
 	return (
 		<>
 			<section
-				class="text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start upper-banner bg-image"
+				className="text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start upper-banner bg-image"
 				style={bgImg}>
-				<div class="container">
-					<div class="d-sm-flex flex-column d-flex justify-content-center align-items-center ">
+				<div className="container">
+					<div className="d-sm-flex flex-column d-flex justify-content-center align-items-center ">
 						<h1 className="text-center">
 							<span className="open-text">Hello!</span>
 							<br /> I'm <b>Pablo Peña</b> <br />
